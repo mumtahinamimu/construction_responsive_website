@@ -1,0 +1,702 @@
+/*======================================
+Font integrated CSS
+========================================*/
+@font-face{
+	font-family: FuturaLT-Book;
+	src: url("../fonts/FuturaLT-Book.ttf");
+}
+
+@font-face{
+	font-family: FuturaLT-Bold;
+	src: url("../fonts/FuturaLT-Bold.ttf");
+}
+
+@font-face{
+	font-family: futuralt-bookoblique;
+	src: url("../fonts/futuralt-bookoblique.ttf");
+}
+
+@font-face{
+	font-family: gill-sans-mt-ultra-bold;
+	src: url("../fonts/gill-sans-mt-ultra-bold.ttf");
+}
+
+/*======================================
+Common CSS
+========================================*/
+/*Common start*/
+body{
+	margin: 0;
+	padding: 0;
+  font-family: FuturaLT-Book;
+  font-size: 16px;
+  color: #484848;
+}
+/*Common end*/
+
+/*======================================
+Topbar CSS
+========================================*/
+/*topbar css start*/
+#top_bar{
+	background-color: #ffcb0f;
+	padding: 13px 0;
+	line-height: 0;
+	color: #000000;
+}
+
+
+.tbar_social_media ul li a i{
+	color: #000000;
+}
+
+.tbar_social_media ul li a i:hover{
+	color: #ffffff;
+}
+
+/*topbar css end*/
+/*======================================
+Main header CSS
+========================================*/
+/*main header css start*/
+#main_header{
+	background-color: #222533;
+	padding: 15px 0;
+}
+
+.c_menu ul li a{
+	color: #ffffff !important;
+	padding: 0 15px !important;
+	text-transform: capitalize;
+}
+
+.c_menu ul li a:hover{
+	color: #ffcb0f !important;
+}
+
+.c_input{
+			width: 100%;
+			height: 50px;
+			border-radius: 0.25rem;
+			font-family: FuturaLT-Book;
+		    font-size: 16px;
+		    color: #484848 !important;
+		    border: none;
+	}
+
+.c_input:focus {
+    color: #484848 !important;
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+
+.search_button{
+	color: #ffcb0f;
+	border: none;
+}
+
+.search_button:hover{
+	color: #ffffff;
+}
+
+.search_button:focus{
+	box-shadow: none;
+}
+/*main header css end*/
+/*======================================
+Banner CSS
+========================================*/
+/*Banner css start*/
+.banner{
+	padding-top: 100px;
+	padding-bottom: 180px;
+	background: url(../img/construction_banner.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+    opacity: .43;
+    z-index: -1;
+}
+
+.banner_text{
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+
+.banner_text h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.banner_text h1{
+	font-family: FuturaLT-Bold;
+	font-size: 50px;
+	line-height: 52px;
+	margin-bottom: 20px;
+}
+
+.banner_text h1 span{
+	color: #ffcb0f;
+}
+
+.banner_text p{
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.banner_button button{
+	padding: 10px 18px;
+	font-family: FuturaLT-Bold;
+    font-size: 15px;
+	border-radius: 8px;
+	background-color: #ffcb0f;
+	text-transform: uppercase;
+	border: none;
+}
+
+.banner_button button:first-child{
+	margin-right: 50px;
+}
+
+.banner_button button:hover{
+	background-color: #ffffff;
+	color: #ffcb0f;
+}
+
+.banner_button button:focus{
+	box-shadow: none;
+	background-color: #ffcb0f;
+	color: #ffffff;
+}
+/*Banner css end*/
+/*======================================
+Welcome CSS
+========================================*/
+/*Welcome section css start*/
+.welcome{
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+
+.welcome_text h1{
+	font-family: FuturaLT-Bold;
+	font-size: 40px;
+	color: #ffcb0f;
+}
+
+.welcome_text h2{
+	font-family: FuturaLT-Bold;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+
+.c_button button{
+	margin: 30px 0 0 !important;
+	font-family: FuturaLT-Book;
+	color: #ffffff;
+}
+
+.c_button button:hover{
+	background-color: #484848;
+	color: #ffffff;
+}
+
+
+.welcome_img{
+	margin-top: 50px;
+	height: 70%;
+	background-image: url(../img/welcome_bg_img.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+
+.wel_img2{
+	position: absolute;
+	bottom: -85px;
+    right: 95px;
+    overflow: hidden;
+}
+
+/*Welcome section css end*/
+/*======================================
+choose us CSS
+========================================*/
+/*choose us section css start*/
+.choose{
+	background-color: #f2f7fa;
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+
+
+.cm_head_h1{
+	font-family: FuturaLT-Bold;
+	font-size: 30px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.choose_single_item{
+	margin-top: 40px;
+}
+
+
+.full_circle{
+	width: 180px;
+	height: 180px;
+	position: relative;
+	display: flex;
+	border-radius: 50%;
+	background-color: rgba(255, 203, 55, 0.7);
+	z-index: 1;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #f9eab3;
+    transition: 0.3s;
+    
+}
+
+
+.full_circle::before{
+	content: "";
+	width: 140px;
+	height: 140px;
+    position: absolute;
+    right: 7%;
+    left: 7%;
+    top: 7%;
+    bottom: 7%;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -1;
+    border: 10px solid #ffcb0f;
+    overflow: hidden;
+
+}
+
+.full_circle i{
+	font-size: 60px;
+}
+
+.full_circle:hover{
+	transform: scale(1.1);
+}
+
+.cm_single_text{
+	margin-top: 30px;
+}
+
+.cm_single_h2{
+	font-family: FuturaLT-Bold;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.circle_single_h2{
+	font-size: 16px;
+}
+
+
+/*choose us section css start*/
+/*======================================
+services CSS
+========================================*/                
+/*services section css start*/
+.services{
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+
+.ser_single_item{
+	margin-top: 40px;
+	overflow: hidden !important;
+}
+
+.ser_single_img{
+	overflow: hidden;
+}
+
+.ser_single_img img{
+	transition: 0.3s;
+}
+
+.ser_single_img img:hover{
+	transform: scale(1.1);
+}
+
+.ser_single_h2{
+	font-size: 18px;
+}
+
+/*services section css end*/
+/*======================================
+made CSS
+========================================*/                
+/*made section css start*/
+
+.made{
+	padding-top: 70px;
+	padding-bottom: 100px;
+	background: url(../img/wall_background.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.made::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffcb0f;
+    overflow: hidden;
+    opacity: .5;
+    z-index: -1;
+}
+
+.made_nav{
+	margin: 50px 0;
+}
+
+.made_nav ul li a{
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.made_nav ul li a:hover{
+	color: #ffffff;
+}
+
+.made_nav ul li a:focus{
+	color: #ffffff;
+}
+
+.made_nav ul li{
+	margin-right: 10px;
+}
+.made_nav .active{
+	background-color: #000000;
+	border-radius: 20px;
+}
+
+.made_nav ul li:hover{
+	background-color: #000000;
+	border-radius: 20px;
+	color: #ffffff;
+}
+
+.made_img{
+	overflow: hidden !important;
+}
+
+.img_margin_bt{
+	overflow: hidden !important;
+}
+
+.img_margin_bt img{
+	margin-bottom: 8px;
+	transition: .3s ease-in-out;
+}
+
+.made_img img:hover{
+	transform: scale(1.1);
+}
+
+/*made section css end*/
+/*======================================
+customer review CSS
+========================================*/
+/*customer review section css start*/
+.review{
+	padding-top: 70px;
+	padding-bottom: 100px;
+	background: url(../img/customer_review_bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.review_single_item1{
+	margin-top: 40px;
+}
+.review_single_div{
+	background-color: #e5e5e5;
+	border-radius: 20px;
+	padding: 20px 15px 30px;
+	position: relative;
+    z-index: 1;
+}
+
+.review_single_div::before{
+	content: "";
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    left: 40%;
+    bottom: 0;
+    transform: rotate(45deg);
+    background-color: #e5e5e5;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.quote_icon{
+	font-size: 40px;
+	color: #989898;
+}
+
+.review_single_person{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.review_single_img{
+	border-radius: 50%;
+}
+
+.review_single_img img{
+	transition: .3s ease-in-out;
+}
+
+.review_single_img img:hover{
+	transform: scale(1.1);
+}
+
+
+.review_single_person h2{
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-family: FuturaLT-Bold;
+	text-transform: uppercase;
+	font-size: 15px;
+
+}
+
+.review_single_div2{
+	background-color: #ffcb0f;
+	padding: 20px 15px 40px;
+	color: #ffffff;
+}
+
+.review_single_div2::before{
+	background-color: #ffcb0f;
+}
+
+.review_single_div2 i{
+	color: #ffffff;
+}
+/*customer review section css end*/
+/*======================================
+question section CSS
+========================================*/
+/*question section css start*/
+.question{
+	padding-top: 35px;
+	padding-bottom: 40px;
+	background-color: #ffcb0f;
+}
+
+.question_text h1{
+	font-family: FuturaLT-Bold;
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #2f3240;
+}
+.question_text h2{
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #2f3240;
+	margin-bottom: 0;
+}
+.form_rowone{
+	margin-bottom: 10px;
+}
+
+/*Submit button start*/
+.u_text{
+	width: 100%;
+	height: 50px;
+	padding: 10px 22px;
+	border-radius: 0.5rem;
+	font-family: FuturaLT-Book;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #adadad !important;
+    border: none;
+}
+
+.u_text:focus {
+    color: #adadad !important;
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+.u_submit{
+	width: 100%;
+	height: 50px;
+	font-family: FuturaLT-Book;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff !important;
+	border-radius: 0.5rem;
+	background-color: #2f3240;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+
+.u_submit:focus {
+    box-shadow: none;
+}
+
+.u_submit:hover {
+    background-color: #ffffff;
+    color: #2f3240 !important;
+}
+/*Submit button end*/
+/*contact end*/
+/*question section css endt*/
+/*======================================
+footer section CSS
+========================================*/
+/*footer section css start*/
+.footer{
+	padding-top: 120px;
+	padding-bottom: 80px;
+	background: url(../img/footer_bg_city.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #222533;
+    overflow: hidden;
+    opacity: .87;
+    z-index: -1;
+}
+/*footer section css start*/
+.f_title{
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+.f_company_text p{
+	margin: 20px 0 25px;
+}
+
+.contact_icon ul li{
+	margin-right: 20px !important;
+}
+
+.contact_icon ul li:last-child{
+	margin-right: 0 !important;
+}
+
+.contact_icon ul li a{
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: #ffcb0f;
+	display: inline-block;
+	transition: 0.3s;
+	text-align: center;
+}
+
+.contact_icon ul li a:hover{
+	background-color: #ffffff;
+}
+
+.contact_icon ul li a i{
+	margin-top: 10px;
+	font-size: 25px;
+	color: #222222 !important;
+}
+
+.explore_text ul li{
+	margin-bottom: 15px;
+}
+
+.explore_text ul li:last-child{
+	margin-bottom: 0;
+}
+
+.explore_text ul li i{
+	margin-right: 15px;
+}
+
+.explore_text ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.foot_circle{
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-right: 15px !important;
+}
+
+.f_post_text li a{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.f_contactus li{
+	margin-bottom: 15px;
+}
+
+.f_contactus li:last-child{
+	margin-bottom: 0;
+}
+
+.f_contactus li i{
+	margin-right: 15px;
+}
+
+.f_contactus li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.lower_footer{
+	background-color: #1a1c27;
+	color: #ffffff;
+}
+.l_f_text{
+	padding: 20px 0;
+}
+
+.l_f_text span{
+	color: #ffcb0f;
+}

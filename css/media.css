@@ -1,0 +1,763 @@
+/*=======================================================
+Extra small devices (portrait phones, less than 576px)
+=========================================================*/
+@media (max-width: 575.98px) {
+/*topbar css start*/
+	.tbar_single{
+		margin-bottom: 10px;
+	}
+
+	#top_bar{
+		text-align: center;
+		font-size: 14px;
+	}
+	/*topbar css end*/
+
+	/*header css start*/
+	#main_header{
+	padding: 10px 0 5px;
+	}
+	.c_menu ul li a{
+		padding: 10px 0 0 !important;
+		text-align: right;
+	}
+
+	.c-form{
+			margin-top: 10px;
+	}
+	/*header css end*/
+/*Banner css start*/
+.banner {
+    padding-top: 40px;
+    padding-bottom: 100px;
+    }
+
+.banner_text {
+    margin-bottom: 22px;
+}
+
+.banner_text h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.banner_text h1 {
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 12px;
+}
+
+.banner_text p {
+    font-size: 15px;
+}
+
+.banner_button button {
+    padding: 3px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.banner_button button:first-child {
+    margin-right: 30px;
+}    
+/*Banner css end*/
+/*Welcome section css start*/
+.welcome{
+	padding: 30px 0;
+}
+
+.welcome_text{
+	text-align: center;
+}
+
+.welcome_text h1 {
+    font-size: 25px;
+}
+
+.welcome_text h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.welcome_text p{
+	font-size: 15px;
+}
+
+.welcome_text:first-child p{
+	margin-bottom: 10px;
+}
+
+.c_button button{
+	margin: 16px 0 0 !important;
+}
+/*Welcome section css end*/
+/*choose section css start*/
+.choose{
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.cm_head_h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cm_head_para{
+	font-size: 15px;
+}
+.choose_single_item{
+  text-align: center;
+}
+.full_circle{
+  margin: auto;
+}
+.choose_single_item {
+    margin-top: 30px;
+}
+.circle_single_h2{
+	font-size: 15px;
+}
+
+.cm_single_para{
+	font-size: 15px;
+}
+
+.cm_single_text {
+    margin-top: 16px;
+}
+
+.cm_single_h2 {
+    margin-bottom: 14px;
+}
+/*choose section css end*/
+/*services section css start*/
+.services{
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.ser_single_item{
+	text-align: center;
+	margin-top: 30px;
+}
+/*services section css end*/
+/*made section css start*/
+.made{
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.made_nav{
+	margin: 25px 0 15px;
+}
+
+.made_nav ul li{
+	margin-bottom: 10px;
+}
+/*made section css end*/
+/*customer review section css start*/
+.review{
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.quote_para{
+	font-size: 15px;
+}
+
+.quote_icon{
+	font-size: 35px;
+}
+
+.review_single_item1{
+	margin-top: 30px;
+}
+
+.review_single_person{
+	margin-top: 25px;
+}
+/*customer review section css end*/
+/*question section css start*/
+.question{
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.question_text{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.question_text h1{
+	font-size: 20px;
+}
+
+.question_text h2{
+	font-size: 22px;
+}
+/*question section css start*/
+/*footer section css start*/
+.footer{
+	padding-top: 90px;
+	padding-bottom: 50px;
+}
+
+.footer_c1_contact{
+	margin-bottom: 35px;
+}
+
+.footer_c2{
+	margin-bottom: 35px;
+}
+
+.f_title{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.f_company_text p{
+	margin: 15px 0 20px;
+}
+.contact_icon ul li a{
+	width: 40px;
+	height: 40px;
+
+}
+
+.contact_icon ul li a i{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.contact_icon ul li{
+	margin-right: 15px !important;
+}
+
+.explore_text ul li{
+	margin-bottom: 10px;
+}
+
+.explore_text ul li i{
+	margin-right: 10px;
+}
+
+.foot_circle{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 7px !important;
+	margin-right: 10px !important;
+}
+
+.f_post_text li a{
+font-size: 15px;
+}
+.explore_text ul li a{
+font-size: 15px;}
+.f_contactus li{
+	margin-bottom: 10px;
+}
+
+.f_contactus li i{
+	margin-right: 10px;
+}
+
+.f_contactus li a{
+font-size: 15px;
+}
+.l_f_text p{
+	font-size: 15px;
+}
+/*footer section css end*/
+
+}
+/*=======================================================
+Small devices (landscape phones, 576px and up)
+=========================================================*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*topbar css start*/
+	#top_bar{
+		font-size: 14px;
+	}
+	.tbar_phone{
+		margin-bottom: 10px;
+	}
+
+	.tbar_email{
+		margin-bottom: 10px;
+	}
+	/*topbar css end*/
+
+	/*header css start*/
+	#main_header{
+	padding: 10px 0 5px;
+}
+	.c_menu ul li a{
+		padding: 10px 0 0 !important;
+		text-align: right;
+	}
+
+	.c-form{
+			margin-top: 10px;
+	}
+	/*header css end*/
+/*Banner css start*/
+.banner {
+    padding-top: 60px;
+    padding-bottom: 140px;
+    }
+
+.banner_text {
+    margin-bottom: 30px;
+}
+
+.banner_text h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.banner_text h1 {
+    font-size: 42px;
+    line-height: 44px;
+    margin-bottom: 15px;
+}
+
+.banner_text p {
+    font-size: 16px;
+}
+
+.banner_button button {
+    padding: 4px 13px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.banner_button button:first-child {
+    margin-right: 40px;
+}    
+/*Banner css end*/
+/*Welcome section css start*/
+.welcome{
+	padding: 40px 0;
+}
+
+.welcome_text{
+	text-align: center;
+}
+
+.welcome_text h1 {
+    font-size: 35px;
+}
+
+.welcome_text h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.welcome_text p{
+	font-size: 15px;
+}
+
+
+
+.c_button button{
+	margin: 25px 0 0 !important;
+}
+/*Welcome section css end*/
+/*choose section css start*/
+.choose{
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+.cm_head_h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.cm_head_para{
+	font-size: 15px;
+}
+.choose_single_item{
+  text-align: center;
+}
+.full_circle{
+  margin: auto;
+}
+.choose_single_item {
+    margin-top: 35px;
+}
+.circle_single_h2{
+	font-size: 15px;
+}
+
+.cm_single_para{
+	font-size: 15px;
+}
+
+.cm_single_text {
+    margin-top: 25px;
+}
+
+.cm_single_h2 {
+    margin-bottom: 15px;
+}
+/*choose section css end*/
+/*services section css start*/
+.services{
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+.ser_single_item{
+	text-align: center;
+	margin-top: 35px;
+}
+/*services section css end*/
+/*made section css start*/
+.made{
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+.made_nav{
+	margin: 30px 0 20px;
+}
+
+.made_nav ul li{
+	margin-bottom: 10px;
+}
+/*made section css end*/
+/*customer review section css start*/
+.review{
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+.quote_para{
+	font-size: 15px;
+}
+
+.quote_icon{
+	font-size: 35px;
+}
+
+.review_single_item1{
+	margin-top: 35px;
+}
+
+.review_single_person{
+	margin-top: 25px;
+}
+/*customer review section css end*/
+/*question section css start*/
+.question_text{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.u_text{
+	font-size: 15px;
+}
+
+.u_submit{
+	font-size: 15px;
+}
+/*question section css start*/
+/*footer section css start*/
+.footer{
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+
+.footer_c1_contact{
+	margin-bottom: 40px;
+}
+
+.footer_c2{
+	margin-bottom: 40px;
+}
+
+.f_title{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.f_company_text p{
+	margin: 15px 0 20px;
+}
+
+.contact_icon ul li{
+	margin-right: 15px !important;
+}
+
+.explore_text ul li{
+	margin-bottom: 10px;
+}
+
+.explore_text ul li i{
+	margin-right: 10px;
+}
+
+.foot_circle{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 7px !important;
+	margin-right: 10px !important;
+}
+
+.f_post_text li a{
+font-size: 15px;
+}
+.explore_text ul li a{
+font-size: 15px;}
+.f_contactus li{
+	margin-bottom: 10px;
+}
+
+.f_contactus li i{
+	margin-right: 10px;
+}
+
+.f_contactus li a{
+font-size: 15px;
+}
+.l_f_text p{
+	font-size: 15px;
+}
+/*footer section css end*/
+
+
+}
+/*===============================================
+Medium devices (tablets, 768px and up)
+=================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*topbar css start*/
+	#top_bar{
+		font-size: 15px;
+	}
+	.tbar_phone{
+		margin-bottom: 10px;
+	}
+
+	.tbar_email{
+		margin-bottom: 10px;
+	}
+	/*topbar css end*/
+	/*header css start*/
+		#main_header{
+		padding: 10px 0 5px;
+		}
+	.c_menu ul li a{
+		padding: 12px 0 0 !important;
+		text-align: right;
+	}
+
+	.c-form{
+			margin-top: 12px;
+	}
+	/*header css end*/
+/*Banner css start*/
+.banner {
+    padding-top: 80px;
+    padding-bottom: 160px;
+    }
+
+.banner_text {
+    margin-bottom: 35px;
+}
+
+.banner_text h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.banner_text h1 {
+    font-size: 45px;
+    line-height: 47px;
+    margin-bottom: 15px;
+}
+
+.banner_text p {
+    font-size: 15px;
+}
+
+.banner_button button {
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.banner_button button:first-child {
+    margin-right: 45px;
+}    
+/*Banner css end*
+/*Welcome section css start*/
+.welcome{
+	padding: 50px;
+}
+
+.welcome_text{
+	text-align: center;
+}
+.c_button button{
+	margin: 25px 0 0 !important;
+}
+/*Welcome section css end*/
+
+/*choose section css start*/
+.choose{
+	padding-top: 60px;
+	padding-bottom: 90px;
+}
+.cm_single_para {
+    margin-right: 58px;
+}
+/*choose section css end*/
+/*services section css start*/
+.services{
+	padding-top: 60px;
+	padding-bottom: 90px;
+}
+
+.ser_single_item{
+	text-align: center;
+}
+/*services section css end*/
+/*made section css start*/
+.made{
+	padding-top: 60px;
+	padding-bottom: 90px;
+}
+
+.made_nav{
+	margin: 40px 0;
+}
+.img_margin_bt img{
+	margin-bottom: 5px;
+}
+
+/*made section css end*/
+/*customer review section css start*/
+.review{
+	padding-top: 60px;
+	padding-bottom: 90px;
+}
+.review_single_div2{
+	padding: 40px 15px 50px;
+}
+/*customer review section css end*/
+/*question section css start*/
+.question_text{
+	text-align: center;
+	margin-bottom: 10px;
+}
+/*question section css start*/
+/*footer section css start*/
+.footer{
+	padding-top: 110px;
+	padding-bottom: 70px;
+}
+
+.f_explor{
+	margin-bottom: 50px;
+	margin-left: 65px;
+}
+/*footer section css end*/
+
+}
+/*===============================================
+Large devices (desktops, 992px and up)
+=================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+/*Welcome section css start*/
+.welcome{
+	padding: 50px 0 20px;
+}
+
+.welcome_img{
+	
+	height: 80%;
+
+}
+
+.wel_img2 {
+    bottom: -67px;
+    right: 50px;
+}
+/*Welcome section css end*/
+/*footer section css start*/
+.footer_c1_contact{
+	margin-bottom: 50px;
+	text-align: center;
+}
+.f_explor{
+	margin-bottom: 50px;
+	
+}
+/*footer section css end*/
+
+}
+/*===============================================
+X-Large devices (large desktops, 1200px and up)
+=================================================*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*topbar css start*/
+#top_bar ul li i{
+	font-size: 20px;
+}
+
+/*main header css start*/
+.c_menu ul li a{
+	padding: 0 30px !important;
+}
+/*main header css end*/
+/*choose css start*/
+.cm_single_para{
+		margin-right: 45px;
+	}
+/*choose css end*/
+
+}
+/*===============================================
+XX-Large devices (larger desktops, 1400px and up)
+=================================================*/
+@media (min-width: 1400px) {
+	/*topbar css start*/
+#top_bar ul li i{
+	font-size: 20px;
+}
+
+/*main header css start*/
+.c_menu ul li a{
+	padding: 0 30px !important;
+}
+/*main header css end*/
+/*choose css start*/
+.cm_single_para{
+		margin-right: 98px;
+	}
+/*choose css end*/
+/*made section css start*/
+
+.img_marginone img{
+	margin-left: 45px;
+
+}
+/*made section css end*/
+/*customer review section css start*/
+.review_single_div2{
+	padding: 60px 15px 80px;
+}
+/*customer review section css end*/
+/*question section css start*/
+.question_text h1{
+	font-size: 30px;
+}
+.question_text h2{
+	font-size: 40px;
+
+}
+/*question section css start*/
+
+}
